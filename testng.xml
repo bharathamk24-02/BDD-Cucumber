@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="api.Post"/>
+            <class name="api.Post"/>
+        </classes>
+    </test>
+
+    <!-- Suite 2 -->
+    <test name="Selenium">
+        <classes>
+            <class name="sample.PolicyCreation"/>
+            <class name="sample.ClaimCreation"/>
+            <class name="sample.ClaimCreation_Exposure"/>
+
+        </classes>
+    </test>
+</suite>
+

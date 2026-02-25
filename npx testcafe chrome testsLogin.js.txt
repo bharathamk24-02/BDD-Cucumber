@@ -1,0 +1,4 @@
+npx testcafe chrome tests/Login.js
+ 
+
+npx testcafe chrome tests/AccountCreationTest.js
